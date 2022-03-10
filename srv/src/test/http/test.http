@@ -1,0 +1,3 @@
+GET http://localhost:8080/odata/v4/ssm/SkillMatrics
+
+GET http://localhost:8080/odata/v4/ssm/SkillMatrics(ID=8b3e88ba-304c-4b03-af52-f61ff48591c3)

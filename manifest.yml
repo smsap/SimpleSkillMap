@@ -10,8 +10,8 @@ applications:
   - name: ssm-srv
     random-route: true # for development only
     path: srv/target/ssm-exec.jar
-    memory: 1G
-    disk_quota: 512M
+    memory: 1024M
+    disk_quota: 1024M
     instances: 1
     env:
       SPRING_PROFILES_ACTIVE: cloud
