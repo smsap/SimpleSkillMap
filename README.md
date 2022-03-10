@@ -20,6 +20,17 @@ cds init SimpleSkillMap --add  java,cf-manifest --java:mvn groupId=smsap,artifac
 mvn com.sap.cds:cds-maven-plugin:addSample
 ```
 
+### Adding local database (SQlite)
+This will create a local `sqlite.db` under the root directory. 
+```shell
+cds deploy -2 sqlite
+```
+or to some other name like `skillmap.db` under the root directory.
+```shell
+cds deploy -2 sqlite:skillmap.db
+```
+
+## Building
 ### Build and run the application
 #### With tests
 ```shell
@@ -30,12 +41,13 @@ mvn clean compile package
 mvn clean compile package -DskipTests
 ```
 
-### Run app
+### Run app on local
 ```shell
 mvn spring-boot:start
 ```
 
-### Push to cloudfoundry
+## Deploying
+### Cloudfoundry
 ```shell
 cf push
 ```
