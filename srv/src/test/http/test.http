@@ -1,3 +1,59 @@
-GET http://localhost:8080/odata/v4/ssm/SkillMatrics
+###
+GET http://localhost:8080/health HTTP/1.1
+###
+GET http://localhost:8080/api/ssm/SkillMatrics HTTP/1.1
 
-GET http://localhost:8080/odata/v4/ssm/SkillMatrics(ID=8b3e88ba-304c-4b03-af52-f61ff48591c3)
+###
+GET http://localhost:8080/api/ssm/SkillMatrics(ID=8b3e88ba-304c-4b03-af52-f61ff48591c3) HTTP/1.1
+
+###
+GET http://localhost:8080/api/ssm/SkillMatrics(ID=8b3e88ba-304c-4b03-af52-f61ff48591c3)/createdBy HTTP/1.1
+
+###
+GET http://localhost:8080/api/ssm/SkillMatrics(ID=8b3e88ba-304c-4b03-af52-f61ff48591c3)/createdBy/$value HTTP/1.1
+
+###
+GET http://localhost:8080/api/ssm/SkillMatrics(ID=8b3e88ba-304c-4b03-af52-f61ff48591c3)/user_skills HTTP/1.1
+
+###
+POST http://localhost:8080/api/ssm/SkillMatrics HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "ID": "2fab978d-3d93-4258-a265-da6459e737a5",
+  "user_ID": "343f888b-cfd2-435d-bca9-670df406c3f1"
+}
+
+###
+POST http://localhost:8080/api/ssm/SkillMatrics HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "ID": "976111e2-c6a0-4423-8e07-1bf6bb2b73c6",
+  "user_ID": "343f888b-cfd2-435d-bca9-670df406c3f1",
+  "user_skills": [
+    {
+      "up__ID": "8b3e88ba-304c-4b03-af52-f61ff48591c3",
+      "skill_ID": "3bec52a7-7ab1-4532-86ae-42cee79437d1",
+      "skill_level": "Novice",
+      "comments": "Romeo Whiskey Charlie 1"
+    }
+  ]
+}
+
+###
+PATCH http://localhost:8080/api/ssm/SkillMatrics(976111e2-c6a0-4423-8e07-1bf6bb2b73c6) HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "user_skills": [
+    {
+      "skill_ID": "3bec52a7-7ab1-4532-86ae-42cee79437d1",
+      "skill_level": "Novice",
+      "comments": "Romeo Whiskey Charlie 1"
+    }
+  ]
+}

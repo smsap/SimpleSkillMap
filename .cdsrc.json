@@ -1,5 +1,8 @@
 {
     "build": {
         "target": "."
+    },
+    "sql": {
+        "dialect": "sqlite"
     }
 }

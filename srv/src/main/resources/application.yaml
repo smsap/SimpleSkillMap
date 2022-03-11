@@ -1,10 +1,30 @@
-
 ---
 spring:
+  web.resources.static-locations: "file:./app"
   config.activate.on-profile: default
-cds:
+  sql:
+    init.mode: always
   datasource:
-    auto-config.enabled: false
+    url: "jdbc:sqlite:sqlite.db"
+    driver-class-name: org.sqlite.JDBC
+    initialization-mode: always
+    hikari:
+      maximum-pool-size: 1
+  logging:
+    level:
+      "[com.sap.cds.auditlog]": DEBUG
+cds:
+  dataSource:
+    # url: "jdbc:sqlite:file:./sqlite.db?cache=shared"
+    # driver-class-name: org.sqlite.JDBC
+    csvInitializationMode: always
+    csvFileSuffix: .csv
+    embedded: true
+  odata-v4.endpoint.path: "/api"
+  # auditLog:
+  #   v2.enabled: true
+  # application:
+  #   services: "ssm-srv"
 # server:
 #   port: 8080
 # spring:
