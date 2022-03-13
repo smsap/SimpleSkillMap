@@ -1,8 +1,20 @@
 ###
 GET http://localhost:8080/health HTTP/1.1
+
+###
+GET http://localhost:8080/api/books/Books HTTP/1.1
+
 ###
 GET http://localhost:8080/api/ssm/SkillMatrics HTTP/1.1
 
+###
+GET http://localhost:8080/api/ssm/SkillMatrics?$count=true HTTP/1.1
+
+###
+GET http://localhost:8080/api/ssm/SkillMatrics?$expand=user_skills HTTP/1.1
+
+###
+GET http://localhost:8080/api/ssm/SkillMatrics?$expand=user_skills($count=true) HTTP/1.1
 ###
 GET http://localhost:8080/api/ssm/SkillMatrics(ID=8b3e88ba-304c-4b03-af52-f61ff48591c3) HTTP/1.1
 
@@ -44,16 +56,23 @@ Accept: application/json
 }
 
 ###
-PATCH http://localhost:8080/api/ssm/SkillMatrics(976111e2-c6a0-4423-8e07-1bf6bb2b73c6) HTTP/1.1
+PATCH http://localhost:8080/api/ssm/SkillMatrics(21b6ed23-a314-46af-9e82-2c795c4cd328) HTTP/1.1
 Content-Type: application/json
 Accept: application/json
 
 {
   "user_skills": [
     {
-      "skill_ID": "3bec52a7-7ab1-4532-86ae-42cee79437d1",
+      "ID": "25c317f4-33ff-4066-a527-9c4af90ffb0b",
+      "skill_ID": "e51d0067-e552-4778-b4ce-74f075e14418",
       "skill_level": "Novice",
       "comments": "Romeo Whiskey Charlie 1"
+    },
+    {
+      "ID": "edbd3a86-9be5-413f-b2b1-35d8caceb8b8",
+      "skill_ID": "e51d0067-e552-4778-b4ce-74f075e14418",
+      "skill_level": "Expert",
+      "comments": "Comment 1"
     }
   ]
 }

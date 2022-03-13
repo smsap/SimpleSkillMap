@@ -1,11 +1,11 @@
 ID;createdAt;createdBy;modifiedAt;modifiedBy;skill_name;skill_category
-cbd28c4c-9f7b-4148-9f82-b1c0216a5283;2022-04-13T18:56:16.197Z;Victor Oscar Tango;2021-03-14T09:52:08.751Z;Charlie;Sierra Golf;Data Management
-3ffa6ad5-d5f3-41da-919a-602f05138f76;2019-11-29T09:13:18.078Z;Victor India Alfa;2022-09-19T08:05:11.192Z;Lima;Charlie;Cloud-native Development
-3bec52a7-7ab1-4532-86ae-42cee79437d1;2019-03-01T11:57:52.375Z;Tango Juliett;2021-01-29T15:22:49.754Z;Delta Hotel;Tango;Software Development Methodologies
-50732dda-62d1-4a8a-9075-38f6e04c50d0;2020-02-15T20:42:59.980Z;X-ray Oscar Golf;2019-09-19T01:20:11.171Z;Hotel;Lima Golf Kilo;Internet/Network Protocols and Services
-8677b36e-efb6-4131-8de0-7287dbee7ab4;2021-02-18T01:02:40.382Z;Hotel Uniform;2018-02-25T20:05:07.593Z;Alfa;India;Software Development Methodologies
-60ef9fb3-46e4-4abe-9aa2-c43edbf689ce;2018-11-12T15:37:52.432Z;X-ray Uniform;2021-11-14T07:51:20.230Z;November Alfa X-ray;Sierra;Data Management
-f1aca847-401f-4fe2-b080-d261ad0a35fb;2020-09-24T22:07:31.827Z;Delta Juliett Mike;2020-03-06T18:25:51.453Z;Lima Charlie Foxtrot;India Mike Romeo;Software Development Methodologies
-ec9e528c-98ee-47f1-8dec-b3e00e8cb4cc;2022-09-04T21:09:40.639Z;Yankee Bravo;2019-12-20T22:31:46.563Z;Whiskey Alfa Bravo;Mike;Team and Collaboration
-f1b9d5e6-9ba7-41d1-9d96-b27a08712cbc;2021-04-10T12:15:37.918Z;Oscar;2022-09-03T10:18:39.055Z;Romeo;Tango Juliett Victor;Internet/Network Protocols and Services
-be4a77fe-112d-47a7-9f51-3403cb60e090;2022-01-05T18:18:14.592Z;Quebec Golf Juliett;2019-06-15T00:39:41.589Z;X-ray;Lima Whiskey;Communication
+b02b6fad-937b-43b8-8e67-845ffce29ccc;2019-02-22T18:32:16.998Z;Mike;2018-05-19T05:18:27.881Z;Echo;Victor Juliett;Leadership Principle
+14add562-e0e4-430f-9b00-9d563810497c;2021-05-21T01:23:01.456Z;November Delta;2019-06-28T07:19:18.379Z;Foxtrot Echo Uniform;Hotel India Foxtrot;Security
+c4f3e374-d60c-402a-b878-1c6ce7394035;2022-10-27T00:27:04.195Z;Oscar Zulu Mike;2022-03-22T11:00:08.301Z;Sierra;Victor Lima;Self Management
+2fac1ce5-e7e6-43a1-bc4c-d793ce0db592;2018-02-11T16:18:36.531Z;Kilo Sierra;2022-03-01T23:29:04.087Z;Java;Whiskey Uniform November;Customer Focus
+4327e020-5b9d-4a5b-8336-fe899a649d6d;2018-03-16T22:45:28.347Z;Alfa;2018-12-27T21:41:58.271Z;Quebec Oscar;Lima Whiskey;Communication
+243a29cd-54b2-4c3f-b398-5bb11f153bdb;2020-06-19T09:23:47.705Z;Charlie;2018-08-06T01:15:12.985Z;Hotel;Delta Alfa;Self Management
+e9eecf3c-4058-4f18-8508-fd5f20015c0e;2021-09-16T03:48:31.078Z;Bravo Zulu;2020-10-12T18:58:25.358Z;Charlie;Mike;Software Development Methodologies
+042d3b8f-b1fe-4910-b00c-c9c20614ec18;2018-07-28T19:08:48.026Z;Yankee Whiskey Zulu;2021-07-06T18:08:25.894Z;Kilo Java;Sierra Uniform Golf;Customer Focus
+247aad51-a354-4f15-b791-af1b55ac340b;2022-07-17T03:21:53.531Z;;2021-03-14T14:58:03.059Z;Romeo Golf;Yankee;User Experience
+a8b87ec6-fa2b-4328-8dfd-9aed3b505837;2020-12-27T00:20:01.605Z;Uniform Delta Lima;2022-11-30T19:29:28.226Z;Golf Charlie Sierra;Golf Delta Alfa;Security

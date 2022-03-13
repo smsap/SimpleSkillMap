@@ -1,13 +1,22 @@
 ---
+logging:
+  level:
+    "[com.sap.cds.auditlog]": DEBUG
+    org.apache.http: INFO
+    org.springframework.web: INFO
 spring:
   web.resources.static-locations: "file:./app"
   config.activate.on-profile: default
+  jpa:
+    generate-ddl: true
+    hibernate.ddl-auto: update
   sql:
-    init.mode: always
+    init.mode: never
   datasource:
     url: "jdbc:sqlite:sqlite.db"
     driver-class-name: org.sqlite.JDBC
-    initialization-mode: always
+    poolSize: 30
+    initialization-mode: never
     hikari:
       maximum-pool-size: 1
   logging:
@@ -17,7 +26,7 @@ cds:
   dataSource:
     # url: "jdbc:sqlite:file:./sqlite.db?cache=shared"
     # driver-class-name: org.sqlite.JDBC
-    csvInitializationMode: always
+    csvInitializationMode: never
     csvFileSuffix: .csv
     embedded: true
   odata-v4.endpoint.path: "/api"

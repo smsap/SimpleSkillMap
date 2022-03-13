@@ -1,8 +1,16 @@
 {
-    "build": {
-        "target": "."
-    },
-    "sql": {
-        "dialect": "sqlite"
+  "build": {
+    "target": "."
+  },
+  "sql": {
+    "dialect": "sqlite"
+  },
+  "requires": {
+    "db": {
+      "kind": "sql"
     }
+  },
+  "hana": {
+    "deploy-format": "hdbtable"
+  }
 }

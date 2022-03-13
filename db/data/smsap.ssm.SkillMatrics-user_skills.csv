@@ -1,11 +1,11 @@
-up__ID;skill_ID;skill_level;comments
-fa078748-4f70-4e51-94db-db43d2131528;cbd28c4c-9f7b-4148-9f82-b1c0216a5283;Expert;Alfa Lima
-84df13bb-1203-4cb8-bf6d-e78c55a2cfd6;3ffa6ad5-d5f3-41da-919a-602f05138f76;Novice;Juliett
-8b3e88ba-304c-4b03-af52-f61ff48591c3;3bec52a7-7ab1-4532-86ae-42cee79437d1;Novice;Romeo Whiskey Charlie
-c8804e01-d7ad-4169-ad77-7d5ff7a8d2dd;50732dda-62d1-4a8a-9075-38f6e04c50d0;Novice;Quebec
-6cec3bd1-5a21-4b46-84f3-219ee7db6912;8677b36e-efb6-4131-8de0-7287dbee7ab4;Expert;Golf
-c256dd34-7427-4340-b040-41b2cd69cff9;60ef9fb3-46e4-4abe-9aa2-c43edbf689ce;Expert;Hotel
-86629586-4505-4884-a9ac-102c4de580ea;f1aca847-401f-4fe2-b080-d261ad0a35fb;Proficient;Oscar India
-ed5186ff-f087-4c4b-86e1-c7cefab45e07;ec9e528c-98ee-47f1-8dec-b3e00e8cb4cc;Expert;Foxtrot India
-3bd18125-2e22-4186-9270-c88c8d8edfdb;f1b9d5e6-9ba7-41d1-9d96-b27a08712cbc;Proficient;Kilo
-ef62ebc8-4bb5-477b-b90c-83514e15ec1f;be4a77fe-112d-47a7-9f51-3403cb60e090;Novice;X-ray
+up__ID;ID;skill_ID;skill_level;comments
+d41dc611-7c66-4c21-b6c8-ab58dc825b3c;988d239d-a7b6-4e0b-ba6d-eca505be8e44;b02b6fad-937b-43b8-8e67-845ffce29ccc;Novice;Oscar
+9f940948-d316-4e27-bb7b-e99c7ffd569a;e35a81eb-2920-4a0c-b699-f5440c3a0b15;14add562-e0e4-430f-9b00-9d563810497c;Expert;November
+3c461a85-de43-4b12-954e-6d0c586d1234;11ef32ee-f942-4132-9a7a-41a830d1e812;c4f3e374-d60c-402a-b878-1c6ce7394035;Proficient;Bravo Victor
+f9acc046-cbfc-439e-8f14-8c8a203c5c09;eab80035-811b-472e-83fe-bda888d409e6;2fac1ce5-e7e6-43a1-bc4c-d793ce0db592;Novice;Yankee November India
+3344c013-efff-485b-8755-ab12fd5c57fb;e51d0067-e552-4778-b4ce-74f075e14418;4327e020-5b9d-4a5b-8336-fe899a649d6d;Expert;Oscar November Yankee
+a91bb427-3179-4b4d-8688-86751c5d162c;ffda3b3c-450c-46f7-8c2a-dd190cb050f0;243a29cd-54b2-4c3f-b398-5bb11f153bdb;Proficient;Bravo
+3bd23dd6-99ed-4a07-a2a9-a99389d66b8e;163e2175-168a-4caa-817f-6068f77337a0;e9eecf3c-4058-4f18-8508-fd5f20015c0e;Proficient;Uniform Oscar
+21b6ed23-a314-46af-9e82-2c795c4cd328;534d4d40-66a2-4cbb-b245-330ce58dc1bb;042d3b8f-b1fe-4910-b00c-c9c20614ec18;Expert;Charlie X-ray
+db5c87e2-3fc5-4e9a-b7c4-8d7adbf8e8aa;aa0a4e0f-a465-42cc-be7c-d39f26c84aff;247aad51-a354-4f15-b791-af1b55ac340b;Expert;Zulu
+e217d1bc-b923-4ed7-ae8f-0f0d39461a3b;1721b0d8-bd56-4a3e-ab7d-d4baba4f85e8;a8b87ec6-fa2b-4328-8dfd-9aed3b505837;Expert;Victor

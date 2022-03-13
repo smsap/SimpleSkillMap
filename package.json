@@ -9,7 +9,7 @@
       "db": {
         "kind": "sqlite",
         "credentials": {
-          "database": "sqlite.db"
+          "database": "./srv/sqlite.db"
         }
       }
     }
