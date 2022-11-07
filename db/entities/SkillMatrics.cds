@@ -9,11 +9,13 @@ using {smsap.ssm.SkillLevel} from '../types';
 
 using {
     cuid,
-    managed
+    managed,
+    Country
 } from '@sap/cds/common';
 
 entity SkillMatrics : cuid, managed {
     user        : Association to one Users @mandatory;
+    country     : Country;
     user_skills : Composition of many {
                       key ID          : UUID;
                           skill       : Association to one Skills @mandatory;

@@ -33,6 +33,7 @@ public class CatalogServiceHandler implements EventHandler {
 	public void checkBooks(Stream<Books> books) {
 		String methodName = "checkBooks";
 		log.info("CatalogServiceHandler::{} Start", methodName);
+		books.filter(null)
 		log.info("CatalogServiceHandler::{} End", methodName);
 	}
 }
